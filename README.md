@@ -53,7 +53,7 @@ python3 omni_driver.py
 ```
 ros2 service call /mavros/set_mode mavros_msgs/srv/SetMode "{base_mode: 0, custom_mode: 'GUIDED'}"
 ```
-- In a SSH termianl run the command with you chosen latitude and longitude for the waypoint.
+- In a SSH termianl run the command with a latitude and longitude for the waypoint.
 ```
 ros2 topic pub --once /mavros/setpoint_raw/global mavros_msgs/msg/GlobalPositionTarget "{D'}"
  header: {stamp: {sec: 0, nanosec: 0}, frame_id: 'base_link'},
