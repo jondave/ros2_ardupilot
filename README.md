@@ -32,7 +32,8 @@ python3 omni_driver.py
 
 ### Manual Teleoperation using Pixhawk and the Radio Controller.
 - Press the saftey `switch` button on the main GPS module, so the red light is solid.
-- Arm / Disarm the Pixhawk - On the Radio controller flip switch `SF` (top left, back switch) from back to front, this `arms` and `disarms` the pixhawk. This can also be done in mission planner and using ROS
+- Arm / Disarm the Pixhawk - On the Radio controller flip switch `SF` (top left, back switch) from back to front, this `arms` and `disarms` the pixhawk. This can also be done in mission planner and using ROS (see below).
+- Back <-> Front --- Disarm <-> Arm
 - Change Mode - On the Radio controller switch `SE` (top left front switch) changes the Pixhawk's mode, back is hold (the robot wont move), midde is manual (move using radio controller) and front is auto (autonomous movement.) 
 - Back <-> Middle <-> Front --- Hold <-> Manual <-> Auto.
 
